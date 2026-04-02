@@ -32,6 +32,24 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.product-image img:active {
+  transform: scale(0.98);
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.gallery-image img:active {
+  transform: scale(0.95);
 }
 
 .image-placeholder {
