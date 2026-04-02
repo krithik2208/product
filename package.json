@@ -4,6 +4,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "dev:product1": "vite --port 5173",
+    "dev:product2": "vite --port 5174",
+    "dev:product3": "vite --port 5175",
+    "dev:all": "npm run dev:product1 & npm run dev:product2 & npm run dev:product3",
     "build": "vite build",
     "preview": "vite preview"
   },

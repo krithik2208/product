@@ -1,0 +1,113 @@
+.hamburger-menu {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+}
+
+.hamburger-btn {
+  width: 56px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-btn span {
+  width: 22px;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-btn.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger-btn.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-btn.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.hamburger-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.hamburger-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.hamburger-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hamburger-nav {
+  position: absolute;
+  bottom: 72px;
+  right: 0;
+  background: rgba(30, 30, 30, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 8px;
+  min-width: 180px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.hamburger-nav.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.hamburger-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hamburger-nav li {
+  margin: 0;
+}
+
+.hamburger-nav button {
+  width: 100%;
+  padding: 14px 20px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.hamburger-nav button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
