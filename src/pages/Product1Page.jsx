@@ -6,7 +6,7 @@ function Product1Page() {
     <div className="product-page">
       <section id="product" className="section product-section">
         <div className="product-image">
-          <div className="image-placeholder">Product Image</div>
+          <img src="/images/product1.jpg" alt="Product 1" />
         </div>
         <div className="product-header">
           <span className="label">Collection 2026</span>
