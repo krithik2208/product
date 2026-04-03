@@ -125,3 +125,18 @@
   color: #fff;
   font-weight: 400;
 }
+
+.subsection-title {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.coming-soon {
+  color: #555;
+  font-size: 0.85rem;
+  font-style: italic;
+}

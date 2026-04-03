@@ -44,24 +44,37 @@ function Product3Page() {
 
       <section id="material" className="section">
         <h2>Material Composition</h2>
+        
+        <h3 className="subsection-title">Fabrics</h3>
         <div className="specs-grid">
           <div className="spec-item">
-            <span className="spec-label">Fabric</span>
-            <span className="spec-value">100% Cotton Oxford</span>
+            <span className="spec-label">Fabric Composition</span>
+            <span className="spec-value">52% Cotton, 48% Recycled Polyester</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Weight</span>
-            <span className="spec-value">200 GSM Heavy</span>
+            <span className="spec-label">Weave</span>
+            <span className="spec-value">20s*20s Open Dobby</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Thread</span>
-            <span className="spec-value">Triple-Stranded Core</span>
+            <span className="spec-label">Sourced From</span>
+            <span className="spec-value">Zeruri Fabrics, India</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Details</span>
-            <span className="spec-value">Branded Copper Rivets</span>
+            <span className="spec-label">Dyes</span>
+            <span className="spec-value">Azo-free dyes</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Finishing</span>
+            <span className="spec-value">Regular Finish with 30% lesser water</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Waste Water Treated</span>
+            <span className="spec-value">Yes</span>
           </div>
         </div>
+
+        <h3 className="subsection-title" style={{ marginTop: '24px' }}>Trims</h3>
+        <p className="coming-soon">Coming Soon</p>
       </section>
 
       <section id="manufacturing" className="section">
