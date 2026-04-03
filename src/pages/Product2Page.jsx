@@ -152,7 +152,7 @@ function Product2Page() {
           </div>
           <div className="spec-item">
             <span className="spec-label">Shrinkage</span>
-            <span className="spec-value">Warp: -3.3%{'\n'}Weft: -3.0%</span>
+            <span className="spec-value">Warp: - 3.3%{'\n'}Weft: - 3.0%</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Spirality</span>
@@ -172,7 +172,7 @@ function Product2Page() {
           </div>
           <div className="spec-item">
             <span className="spec-label">Testing Standard</span>
-            <span className="spec-value">Verified lab tested performance</span>
+            <span className="spec-value">Verified lab - tested performance</span>
           </div>
         </div>
 
