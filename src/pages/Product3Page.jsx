@@ -49,11 +49,11 @@ function Product3Page() {
         <div className="specs-grid">
           <div className="spec-item">
             <span className="spec-label">Fabric Composition</span>
-            <span className="spec-value">52% Cotton, 48% Recycled Polyester</span>
+            <span className="spec-value">52% Cotton<br/>48% Recycled Polyester</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Weave</span>
-            <span className="spec-value">20s*20s Open Dobby</span>
+            <span className="spec-value">20s*20s<br/>Open Dobby</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Sourced From</span>
@@ -68,7 +68,7 @@ function Product3Page() {
             <span className="spec-value">Regular Finish with 30% lesser water</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Waste Water Treated</span>
+            <span className="spec-label">WASTEWATER TREATMENT</span>
             <span className="spec-value">Yes</span>
           </div>
         </div>
