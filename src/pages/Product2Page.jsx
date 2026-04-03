@@ -1,31 +1,13 @@
-import { useState } from 'react'
 import HamburgerMenu from '../components/HamburgerMenu'
-import ImageModal from '../components/ImageModal'
 import './ProductPage.css'
 
 function Product2Page() {
-  const [modalImage, setModalImage] = useState(null)
-
-  const galleryImages = [
-    './images/product2image1.jpg',
-    './images/product2image2.jpg',
-    './images/product2image3.jpg',
-    './images/product2image4.jpg',
-  ]
-
   return (
     <div className="product-page">
-      {modalImage && (
-        <ImageModal src={modalImage.src} alt={modalImage.alt} onClose={() => setModalImage(null)} />
-      )}
-      
       <section id="product" className="section product-section">
-        <div className="product-image">
-          <img 
-            src="./images/product2.jpg" 
-            alt="Product 2" 
-            onClick={() => setModalImage({ src: './images/product2.jpg', alt: 'Product 2' })}
-          />
+        <div className="product-images">
+          <img src="./images/product2.jpg" alt="Product 2 - Front" />
+          <img src="./images/product2.jpg" alt="Product 2 - Back" />
         </div>
         <div className="product-header">
           <span className="label">Collection 2026</span>
@@ -36,7 +18,7 @@ function Product2Page() {
 
       <section id="description" className="section">
         <h2>Description</h2>
-        <p>Elevate your summer wardrobe with our Linen Blend Shirt, the perfect balance of style and comfort. Made from a premium linen-cotton blend, this shirt offers the breathability of linen with the softness of cotton.</p>
+        <p>Elevate your summer wardrobe with our Linen Blend Shirt, the perfect balance of style and comfort. Made from a premium linen-cotton blend, this shirt offers the breathability of linen with the softness of cotton. The relaxed fit and natural texture make it ideal for warm weather, beach days, or casual brunches.</p>
       </section>
 
       <section id="specifications" className="section">
@@ -58,21 +40,6 @@ function Product2Page() {
             <span className="spec-label">Sizes</span>
             <span className="spec-value">XS - XXL</span>
           </div>
-        </div>
-      </section>
-
-      <section id="images" className="section">
-        <h2>Images</h2>
-        <div className="images-grid">
-          {galleryImages.map((src, index) => (
-            <div className="gallery-image" key={index}>
-              <img 
-                src={src} 
-                alt={`Product 2 - View ${index + 1}`}
-                onClick={() => setModalImage({ src, alt: `Product 2 - View ${index + 1}` })}
-              />
-            </div>
-          ))}
         </div>
       </section>
 

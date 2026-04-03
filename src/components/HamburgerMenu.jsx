@@ -14,9 +14,6 @@ function HamburgerMenu() {
 
   const menuItems = [
     { id: 'product', label: 'Product' },
-    { id: 'description', label: 'Description' },
-    { id: 'specifications', label: 'Specifications' },
-    { id: 'images', label: 'Images' },
     { id: 'material', label: 'Material Composition' },
     { id: 'manufacturing', label: 'Manufacturing Details' },
     { id: 'environmental', label: 'Environmental Highlights' },
