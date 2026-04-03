@@ -34,6 +34,48 @@ function Product3Page() {
         </div>
       </section>
 
+      <section id="description" className="section">
+        <h2>Description</h2>
+        <p>Make a statement with our Denim Oxford Shirt, a modern classic that bridges the gap between casual and refined. Crafted from heavyweight oxford cloth with a denim-inspired texture.</p>
+      </section>
+
+      <section id="specifications" className="section">
+        <h2>Specifications</h2>
+        <div className="specs-grid">
+          <div className="spec-item">
+            <span className="spec-label">Fit</span>
+            <span className="spec-value">Boxy Relaxed</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Care</span>
+            <span className="spec-value">Cold Wash Only</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Origin</span>
+            <span className="spec-value">Made in Japan</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Sizes</span>
+            <span className="spec-value">XS - XXL</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="images" className="section">
+        <h2>Images</h2>
+        <div className="images-grid">
+          {galleryImages.map((src, index) => (
+            <div className="gallery-image" key={index}>
+              <img 
+                src={src} 
+                alt={`Product 3 - View ${index + 1}`}
+                onClick={() => setModalImage({ src, alt: `Product 3 - View ${index + 1}` })}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section id="material" className="section">
         <h2>Material Composition</h2>
         <div className="specs-grid">
@@ -51,7 +93,7 @@ function Product3Page() {
           </div>
           <div className="spec-item">
             <span className="spec-label">Details</span>
-            <span className="spec-value">Branded copper rivets</span>
+            <span className="spec-value">Branded Copper Rivets</span>
           </div>
         </div>
       </section>
@@ -110,7 +152,7 @@ function Product3Page() {
 
       <section id="endoflife" className="section">
         <h2>End of Life Guidance</h2>
-        <p>Heavyweight cotton can be upcycled into bags, patches, or patches for repairs. When truly worn out, the entire shirt can be industrially composted. Copper rivets should be removed and recycled separately.</p>
+        <p>Heavyweight cotton can be upcycled into bags, patches, or used for repairs. When truly worn out, the entire shirt can be industrially composted. Copper rivets should be removed and recycled separately.</p>
         <div className="specs-grid" style={{ marginTop: '20px' }}>
           <div className="spec-item">
             <span className="spec-label">Recyclable</span>
@@ -142,48 +184,6 @@ function Product3Page() {
             <span className="spec-label">Quality</span>
             <span className="spec-value">Lifetime Guarantee</span>
           </div>
-        </div>
-      </section>
-
-      <section id="description" className="section">
-        <h2>Description</h2>
-        <p>Make a statement with our Denim Oxford Shirt, a modern classic that bridges the gap between casual and refined. Crafted from heavyweight oxford cloth with a denim-inspired texture.</p>
-      </section>
-
-      <section id="specifications" className="section">
-        <h2>Specifications</h2>
-        <div className="specs-grid">
-          <div className="spec-item">
-            <span className="spec-label">Fit</span>
-            <span className="spec-value">Boxy Relaxed</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Care</span>
-            <span className="spec-value">Cold Wash Only</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Origin</span>
-            <span className="spec-value">Made in Japan</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Sizes</span>
-            <span className="spec-value">XS - XXL</span>
-          </div>
-        </div>
-      </section>
-
-      <section id="images" className="section">
-        <h2>Images</h2>
-        <div className="images-grid">
-          {galleryImages.map((src, index) => (
-            <div className="gallery-image" key={index}>
-              <img 
-                src={src} 
-                alt={`Product 3 - View ${index + 1}`}
-                onClick={() => setModalImage({ src, alt: `Product 3 - View ${index + 1}` })}
-              />
-            </div>
-          ))}
         </div>
       </section>
 

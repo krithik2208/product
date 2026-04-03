@@ -34,6 +34,48 @@ function Product2Page() {
         </div>
       </section>
 
+      <section id="description" className="section">
+        <h2>Description</h2>
+        <p>Elevate your summer wardrobe with our Linen Blend Shirt, the perfect balance of style and comfort. Made from a premium linen-cotton blend, this shirt offers the breathability of linen with the softness of cotton.</p>
+      </section>
+
+      <section id="specifications" className="section">
+        <h2>Specifications</h2>
+        <div className="specs-grid">
+          <div className="spec-item">
+            <span className="spec-label">Fit</span>
+            <span className="spec-value">Relaxed Comfort</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Care</span>
+            <span className="spec-value">Gentle Cycle</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Origin</span>
+            <span className="spec-value">Made in Italy</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Sizes</span>
+            <span className="spec-value">XS - XXL</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="images" className="section">
+        <h2>Images</h2>
+        <div className="images-grid">
+          {galleryImages.map((src, index) => (
+            <div className="gallery-image" key={index}>
+              <img 
+                src={src} 
+                alt={`Product 2 - View ${index + 1}`}
+                onClick={() => setModalImage({ src, alt: `Product 2 - View ${index + 1}` })}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section id="material" className="section">
         <h2>Material Composition</h2>
         <div className="specs-grid">
@@ -142,48 +184,6 @@ function Product2Page() {
             <span className="spec-label">Supply Chain</span>
             <span className="spec-value">Full Traceability</span>
           </div>
-        </div>
-      </section>
-
-      <section id="description" className="section">
-        <h2>Description</h2>
-        <p>Elevate your summer wardrobe with our Linen Blend Shirt, the perfect balance of style and comfort. Made from a premium linen-cotton blend, this shirt offers the breathability of linen with the softness of cotton.</p>
-      </section>
-
-      <section id="specifications" className="section">
-        <h2>Specifications</h2>
-        <div className="specs-grid">
-          <div className="spec-item">
-            <span className="spec-label">Fit</span>
-            <span className="spec-value">Relaxed Comfort</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Care</span>
-            <span className="spec-value">Gentle Cycle</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Origin</span>
-            <span className="spec-value">Made in Italy</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Sizes</span>
-            <span className="spec-value">XS - XXL</span>
-          </div>
-        </div>
-      </section>
-
-      <section id="images" className="section">
-        <h2>Images</h2>
-        <div className="images-grid">
-          {galleryImages.map((src, index) => (
-            <div className="gallery-image" key={index}>
-              <img 
-                src={src} 
-                alt={`Product 2 - View ${index + 1}`}
-                onClick={() => setModalImage({ src, alt: `Product 2 - View ${index + 1}` })}
-              />
-            </div>
-          ))}
         </div>
       </section>
 
