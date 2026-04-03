@@ -104,15 +104,22 @@ function Product1Page() {
 
       <section id="manufacturing" className="section">
         <h2>Manufacturing Details</h2>
-        <p>Ethically crafted in certified workshops in Porto, Portugal. Each shirt is cut and sewn by skilled artisans with over 10 years of experience. Fair wages and safe working conditions guaranteed.</p>
-        <div className="specs-grid" style={{ marginTop: '20px' }}>
+        <div className="specs-grid">
           <div className="spec-item">
-            <span className="spec-label">Factory</span>
-            <span className="spec-value">Artisan Atelier, Porto</span>
+            <span className="spec-label">Manufacturer</span>
+            <span className="spec-value">Fashion Forever, India</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Workers</span>
-            <span className="spec-value">Family-Owned Workshop</span>
+            <span className="spec-label">Construction</span>
+            <span className="spec-value">Standard garment construction method</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Wash</span>
+            <span className="spec-value">Softener Wash</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Waste Handling</span>
+            <span className="spec-value">Fabric scraps upcycled into Value-added products</span>
           </div>
         </div>
       </section>
