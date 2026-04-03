@@ -1,14 +1,14 @@
+import SwipeableImage from '../components/SwipeableImage'
 import HamburgerMenu from '../components/HamburgerMenu'
 import './ProductPage.css'
 
 function Product3Page() {
+  const images = ['./images/product3.jpg', './images/product3.jpg']
+
   return (
     <div className="product-page">
       <section id="product" className="section product-section">
-        <div className="product-images">
-          <img src="./images/product3.jpg" alt="Product 3 - Front" />
-          <img src="./images/product3.jpg" alt="Product 3 - Back" />
-        </div>
+        <SwipeableImage images={images} alt="Product 3" />
         <div className="product-header">
           <span className="label">Collection 2026</span>
           <h1>Denim Oxford Shirt</h1>
@@ -18,7 +18,7 @@ function Product3Page() {
 
       <section id="description" className="section">
         <h2>Description</h2>
-        <p>Make a statement with our Denim Oxford Shirt, a modern classic that bridges the gap between casual and refined. Crafted from heavyweight oxford cloth with a denim-inspired texture, this shirt features a slightly boxy silhouette and dropped shoulders for an effortlessly cool look.</p>
+        <p>Make a statement with our Denim Oxford Shirt, a modern classic that bridges the gap between casual and refined. Crafted from heavyweight oxford cloth with a denim-inspired texture.</p>
       </section>
 
       <section id="specifications" className="section">

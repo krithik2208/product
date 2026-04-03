@@ -1,14 +1,14 @@
+import SwipeableImage from '../components/SwipeableImage'
 import HamburgerMenu from '../components/HamburgerMenu'
 import './ProductPage.css'
 
 function Product1Page() {
+  const images = ['./images/product1.jpg', './images/product1.jpg']
+
   return (
     <div className="product-page">
       <section id="product" className="section product-section">
-        <div className="product-images">
-          <img src="./images/product1.jpg" alt="Product 1 - Front" />
-          <img src="./images/product1.jpg" alt="Product 1 - Back" />
-        </div>
+        <SwipeableImage images={images} alt="Product 1" />
         <div className="product-header">
           <span className="label">Collection 2026</span>
           <h1>Premium Cotton Shirt</h1>
@@ -18,7 +18,7 @@ function Product1Page() {
 
       <section id="description" className="section">
         <h2>Description</h2>
-        <p>Experience ultimate comfort with our Premium Cotton Shirt, crafted from 100% organic cotton for breathability and softness. This versatile shirt features a classic fit with a modern twist, perfect for both casual outings and semi-formal occasions. The lightweight fabric keeps you cool throughout the day while maintaining its shape wash after wash. Pre-washed for extra softness, this shirt gets better with every wear.</p>
+        <p>Experience ultimate comfort with our Premium Cotton Shirt, crafted from 100% organic cotton for breathability and softness. This versatile shirt features a classic fit with a modern twist, perfect for both casual outings and semi-formal occasions.</p>
       </section>
 
       <section id="specifications" className="section">

@@ -1,14 +1,14 @@
+import SwipeableImage from '../components/SwipeableImage'
 import HamburgerMenu from '../components/HamburgerMenu'
 import './ProductPage.css'
 
 function Product2Page() {
+  const images = ['./images/product2.jpg', './images/product2.jpg']
+
   return (
     <div className="product-page">
       <section id="product" className="section product-section">
-        <div className="product-images">
-          <img src="./images/product2.jpg" alt="Product 2 - Front" />
-          <img src="./images/product2.jpg" alt="Product 2 - Back" />
-        </div>
+        <SwipeableImage images={images} alt="Product 2" />
         <div className="product-header">
           <span className="label">Collection 2026</span>
           <h1>Linen Blend Shirt</h1>
@@ -18,7 +18,7 @@ function Product2Page() {
 
       <section id="description" className="section">
         <h2>Description</h2>
-        <p>Elevate your summer wardrobe with our Linen Blend Shirt, the perfect balance of style and comfort. Made from a premium linen-cotton blend, this shirt offers the breathability of linen with the softness of cotton. The relaxed fit and natural texture make it ideal for warm weather, beach days, or casual brunches.</p>
+        <p>Elevate your summer wardrobe with our Linen Blend Shirt, the perfect balance of style and comfort. Made from a premium linen-cotton blend, this shirt offers the breathability of linen with the softness of cotton.</p>
       </section>
 
       <section id="specifications" className="section">

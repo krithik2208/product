@@ -22,16 +22,46 @@
   padding: 0;
 }
 
-.product-images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2px;
+.swipeable-image {
+  width: 100%;
+  overflow: hidden;
 }
 
-.product-images img {
+.swipe-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swipe-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.swipe-track img {
   width: 100%;
   aspect-ratio: 3/4;
   object-fit: cover;
+  flex-shrink: 0;
+}
+
+.swipe-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.dot.active {
+  background: #fff;
 }
 
 .product-header {
