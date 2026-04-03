@@ -24,14 +24,13 @@
 .hamburger-btn span {
   width: 22px;
   height: 2px;
-  background: #444;
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 2px;
   transition: all 0.3s ease;
 }
 
 .hamburger-btn.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
-  background: #fff;
 }
 
 .hamburger-btn.active span:nth-child(2) {
@@ -40,7 +39,6 @@
 
 .hamburger-btn.active span:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
-  background: #fff;
 }
 
 .hamburger-btn:hover {
