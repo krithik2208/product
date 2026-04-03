@@ -3,7 +3,7 @@ import HamburgerMenu from '../components/HamburgerMenu'
 import './ProductPage.css'
 
 function Product1Page() {
-  const images = ['./images/product1.jpg', './images/product1.jpg']
+  const images = ['./images/product1.jpg', './images/product1back.jpg']
 
   return (
     <div className="product-page">
