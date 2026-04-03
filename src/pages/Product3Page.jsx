@@ -150,7 +150,7 @@ function Product3Page() {
           <li>Do not wring</li>
         </ul>
         <div className="washcare-image">
-          <img src="./images/washcare3.jpg" alt="Wash Care Symbols" />
+          <img src="./images/washcare.jpg" alt="Wash Care Symbols" />
         </div>
 
         <h3 className="subsection-title" style={{ marginTop: '24px' }}>Durability & Performance</h3>
