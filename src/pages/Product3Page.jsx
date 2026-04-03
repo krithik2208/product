@@ -11,14 +11,15 @@ function Product3Page() {
         <SwipeableImage images={images} alt="Product 3" />
         <div className="product-header">
           <span className="label">Collection 2026</span>
-          <h1>Denim Oxford Shirt</h1>
+          <h1>Wrogn EcoWeave Dobby Shirt | Brown</h1>
           <p className="price">$69</p>
         </div>
       </section>
 
       <section id="description" className="section">
         <h2>Description</h2>
-        <p>Make a statement with our Denim Oxford Shirt, a modern classic that bridges the gap between casual and refined. Crafted from heavyweight oxford cloth with a denim-inspired texture.</p>
+        <p>A consciously crafted long-sleeved shirt with a regular collar, made from a cotton and recycled polyester blend sourced from post-consumer PET bottles. The open dobby weave enhances breathability while maintaining a refined texture and lasting durability. Produced using AZO-free dyes and low-impact finishing processes, the garment reflects a commitment to reduced environmental impact.</p>
+        <p style={{ marginTop: '16px' }}>Finished with thoughtfully selected eco-friendly components—including wooden buttons, cotton sewing thread, paper-based hangtags, and recycled packaging—this piece embodies a modern approach to responsible fashion without compromising on style or comfort.</p>
       </section>
 
       <section id="specifications" className="section">
