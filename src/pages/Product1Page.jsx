@@ -196,7 +196,7 @@ function Product1Page() {
         <h3 className="subsection-title">Disposal Guide</h3>
         <ul className="environmental-list">
           <li>Prefer reuse, repair or donation before disposal</li>
-          <li>Remove buttons before recycling (buttons can be reused or disposed separately)</li>
+          <li>Remove buttons before recycling; buttons can be reused or disposed separately</li>
           <li>Do not dispose in mixed waste</li>
           <li>Return garment to store for recycling if local recycling facilities are unavailable</li>
         </ul>
