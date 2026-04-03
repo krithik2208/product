@@ -49,7 +49,7 @@ function Product3Page() {
         <div className="specs-grid">
           <div className="spec-item">
             <span className="spec-label">Fabric Composition</span>
-            <span className="spec-value">52% Cotton<br/>48% Recycled Polyester</span>
+            <span className="spec-value">52% Cotton,<br/>48% Recycled Polyester</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Weave</span>
@@ -74,7 +74,32 @@ function Product3Page() {
         </div>
 
         <h3 className="subsection-title" style={{ marginTop: '24px' }}>Trims</h3>
-        <p className="coming-soon">Coming Soon</p>
+        <div className="specs-grid">
+          <div className="spec-item">
+            <span className="spec-label">Buttons</span>
+            <span className="spec-value">Wooden Buttons</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Button Manufacturer</span>
+            <span className="spec-value">Bhanu Buttons, India</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Thread</span>
+            <span className="spec-value">Cotton Thread</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Interlining</span>
+            <span className="spec-value">315 MH / Freudenberg / Woven Non-fusible</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Hangtag</span>
+            <span className="spec-value">Paper Hangtag</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Primary Packaging</span>
+            <span className="spec-value">100% Recyclable</span>
+          </div>
+        </div>
       </section>
 
       <section id="manufacturing" className="section">
