@@ -215,24 +215,49 @@ function Product1Page() {
 
       <section id="certification" className="section">
         <h2>Certification & Compliance</h2>
+        
+        <h3 className="subsection-title">Certification Details</h3>
         <div className="specs-grid">
           <div className="spec-item">
-            <span className="spec-label">Organic</span>
-            <span className="spec-value">GOTS Certified</span>
+            <span className="spec-label">Certification</span>
+            <span className="spec-value">Global Recycled Standard (GRS) - Version 4.0</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Fair Trade</span>
-            <span className="spec-value">Fair Wear Foundation</span>
+            <span className="spec-label">Additional Standard</span>
+            <span className="spec-value">Organic Content Standard (OCS) – Version 3.0</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Testing</span>
-            <span className="spec-value">OEKO-TEX Standard 100</span>
+            <span className="spec-label">Certified Organization</span>
+            <span className="spec-value">Bhatia Exports, Tamil Nadu, India</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Plastic-Free</span>
-            <span className="spec-value">100% Natural Materials</span>
+            <span className="spec-label">Certification Body</span>
+            <span className="spec-value">Bureau Veritas Consumer Products Services Inc.</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Textile Exchange ID (TE-ID)</span>
+            <span className="spec-value">TE-00124407</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Scope Certificate Number</span>
+            <span className="spec-value">BVC-TE-BVIN0200-MULTI-2409-20000160-V1.0</span>
           </div>
         </div>
+
+        <h3 className="subsection-title" style={{ marginTop: '24px' }}>Sustainability Assurance</h3>
+        <ul className="environmental-list">
+          <li>Verifies use of post-consumer recycled polyester (PET-based)</li>
+          <li>Ensures traceability of recycled and organic materials across the supply chain</li>
+          <li>Supports responsible sourcing and certified material flows</li>
+          <li>Ensures compliance in trading, warehousing, and distribution processes</li>
+        </ul>
+
+        <h3 className="subsection-title" style={{ marginTop: '24px' }}>Verification</h3>
+        <ul className="environmental-list">
+          <li>Product uses materials sourced from GRS-certified supplier</li>
+          <li>Certification available upon request</li>
+          <li>Certification can be authenticated online via Textile Exchange platform using TE-ID or Scope Certificate Number</li>
+        </ul>
       </section>
 
       <HamburgerMenu />
