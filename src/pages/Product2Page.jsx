@@ -187,7 +187,7 @@ function Product2Page() {
         </div>
       </section>
 
-      <HamburgerMenu />
+      <HamburgerMenu product="2" />
     </div>
   )
 }

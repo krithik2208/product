@@ -13,7 +13,13 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         product1: resolve(__dirname, 'product1.html'),
         product2: resolve(__dirname, 'product2.html'),
-        product3: resolve(__dirname, 'product3.html')
+        product3: resolve(__dirname, 'product3.html'),
+        material: resolve(__dirname, 'material.html'),
+        manufacturing: resolve(__dirname, 'manufacturing.html'),
+        environmental: resolve(__dirname, 'environmental.html'),
+        durability: resolve(__dirname, 'durability.html'),
+        endoflife: resolve(__dirname, 'endoflife.html'),
+        certification: resolve(__dirname, 'certification.html')
       }
     }
   }
