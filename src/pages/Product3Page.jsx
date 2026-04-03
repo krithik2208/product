@@ -172,7 +172,7 @@ function Product3Page() {
           </div>
           <div className="spec-item">
             <span className="spec-label">Testing Standard</span>
-            <span className="spec-value">Verified lab - tested performance</span>
+            <span className="spec-value">Verified lab tested performance</span>
           </div>
         </div>
 
