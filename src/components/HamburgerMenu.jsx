@@ -16,7 +16,13 @@ function HamburgerMenu() {
     { id: 'product', label: 'Product' },
     { id: 'description', label: 'Description' },
     { id: 'specifications', label: 'Specifications' },
-    { id: 'images', label: 'Images' }
+    { id: 'images', label: 'Images' },
+    { id: 'material', label: 'Material Composition' },
+    { id: 'manufacturing', label: 'Manufacturing Details' },
+    { id: 'environmental', label: 'Environmental Highlights' },
+    { id: 'durability', label: 'Durability & Care' },
+    { id: 'endoflife', label: 'End of Life Guidance' },
+    { id: 'certification', label: 'Certification & Compliance' }
   ]
 
   return (
