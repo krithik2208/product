@@ -224,7 +224,7 @@ function Product3Page() {
           </div>
           <div className="spec-item">
             <span className="spec-label">Additional Standard</span>
-            <span className="spec-value">Organic Content Standard (OCS) – Version 3.0</span>
+            <span className="spec-value">Organic Content Standard (OCS) - Version 3.0</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Certified Organization</span>
@@ -253,11 +253,7 @@ function Product3Page() {
         </ul>
 
         <h3 className="subsection-title" style={{ marginTop: '24px' }}>Verification</h3>
-        <ul className="environmental-list">
-          <li>Product uses materials sourced from GRS-certified supplier</li>
-          <li>Certification available upon request</li>
-          <li>Certification can be authenticated online via Textile Exchange platform using TE-ID or Scope Certificate Number</li>
-        </ul>
+        <p className="description-text">Certification can be authenticated online via Textile Exchange platform using TE-ID or Scope Certificate Number</p>
       </section>
 
       <HamburgerMenu />
