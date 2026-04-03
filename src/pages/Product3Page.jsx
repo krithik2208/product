@@ -140,7 +140,43 @@ function Product3Page() {
       <section id="durability" className="section">
         <h2>Durability & Care</h2>
         
-        <h3 className="subsection-title">Wash Care</h3>
+        <h3 className="subsection-title">Durability & Performance</h3>
+        <div className="specs-grid">
+          <div className="spec-item">
+            <span className="spec-label">Colour Fastness to Rubbing</span>
+            <span className="spec-value">Dry: Grade 4{'\n'}Wet: Grade 3</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Colour Fastness to Washing</span>
+            <span className="spec-value">Grade 4</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Shrinkage</span>
+            <span className="spec-value">Warp: -3.3%{'\n'}Weft: -3.0%</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Spirality</span>
+            <span className="spec-value">0.6%</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Tear Strength</span>
+            <span className="spec-value">Warp: 10367 gf{'\n'}Weft: 5890 gf</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Seam Strength</span>
+            <span className="spec-value">High resistance to seam slippage</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Estimated Lifespan</span>
+            <span className="spec-value">2-4 years</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Testing Standard</span>
+            <span className="spec-value">Verified lab tested performance</span>
+          </div>
+        </div>
+
+        <h3 className="subsection-title" style={{ marginTop: '24px' }}>Wash Care</h3>
         <ul className="environmental-list">
           <li>Use mild detergent</li>
           <li>Cold machine wash recommended</li>
@@ -151,26 +187,6 @@ function Product3Page() {
         </ul>
         <div className="washcare-image">
           <img src="./images/washcare.jpg" />
-        </div>
-
-        <h3 className="subsection-title" style={{ marginTop: '24px' }}>Durability & Performance</h3>
-        <div className="specs-grid">
-          <div className="spec-item">
-            <span className="spec-label">Lifespan</span>
-            <span className="spec-value">10+ Years</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Wash Temp</span>
-            <span className="spec-value">Cold Wash Only</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Bleach</span>
-            <span className="spec-value">Never</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Iron</span>
-            <span className="spec-value">Medium-High Heat</span>
-          </div>
         </div>
       </section>
 
