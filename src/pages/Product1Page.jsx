@@ -25,7 +25,7 @@ function Product1Page() {
         <div className="specs-grid">
           <div className="spec-item">
             <span className="spec-label">Style Code</span>
-            <span className="spec-value">WROGN-SHIRT-001</span>
+            <span className="spec-value">WRSH0001SUS</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Brand</span>
@@ -33,7 +33,7 @@ function Product1Page() {
           </div>
           <div className="spec-item">
             <span className="spec-label">Fit</span>
-            <span className="spec-value">Regular Fit</span>
+            <span className="spec-value">Slim Fit</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Origin</span>
