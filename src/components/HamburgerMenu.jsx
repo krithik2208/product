@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './HamburgerMenu.css'
 
-function HamburgerMenu({ product, currentPage }) {
+function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false)
 
   const scrollToSection = (id) => {
@@ -12,20 +12,17 @@ function HamburgerMenu({ product, currentPage }) {
     }
   }
 
-  const productSections = [
+  const menuItems = [
     { id: 'product', label: 'Product' },
     { id: 'description', label: 'Description' },
     { id: 'specifications', label: 'Specifications' },
-    { id: 'images', label: 'Images' }
-  ]
-
-  const infoPages = [
-    { page: 'material', label: 'Material Composition' },
-    { page: 'manufacturing', label: 'Manufacturing Details' },
-    { page: 'environmental', label: 'Environmental Highlights' },
-    { page: 'durability', label: 'Durability & Care' },
-    { page: 'endoflife', label: 'End of Life Guidance' },
-    { page: 'certification', label: 'Certification & Compliance' }
+    { id: 'images', label: 'Images' },
+    { id: 'material', label: 'Material Composition' },
+    { id: 'manufacturing', label: 'Manufacturing Details' },
+    { id: 'environmental', label: 'Environmental Highlights' },
+    { id: 'durability', label: 'Durability & Care' },
+    { id: 'endoflife', label: 'End of Life Guidance' },
+    { id: 'certification', label: 'Certification & Compliance' }
   ]
 
   return (
@@ -43,23 +40,11 @@ function HamburgerMenu({ product, currentPage }) {
       
       <nav className={`hamburger-nav ${isOpen ? 'active' : ''}`}>
         <ul>
-          {productSections.map((item) => (
+          {menuItems.map((item) => (
             <li key={item.id}>
               <button onClick={() => scrollToSection(item.id)}>
                 {item.label}
               </button>
-            </li>
-          ))}
-          <li className="divider"></li>
-          {infoPages.map((item) => (
-            <li key={item.page}>
-              <a 
-                href={`./${item.page}.html${product ? `?product=${product}` : ''}`}
-                className={currentPage === item.page ? 'active' : ''}
-                onClick={() => setIsOpen(false)}
-              >
-                {item.label}
-              </a>
             </li>
           ))}
         </ul>
