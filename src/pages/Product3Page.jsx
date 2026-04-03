@@ -204,11 +204,11 @@ function Product3Page() {
         <div className="specs-grid" style={{ marginTop: '20px' }}>
           <div className="spec-item">
             <span className="spec-label">Recyclable</span>
-            <span className="spec-value">Yes - Textile Recycling</span>
+            <span className="spec-value">Yes</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Compostable</span>
-            <span className="spec-value">Yes - at certified textile recycling facility</span>
+            <span className="spec-value">Yes - At certified textile recycling facility</span>
           </div>
         </div>
       </section>
