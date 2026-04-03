@@ -10,9 +10,7 @@ function Product3Page() {
       <section id="product" className="section product-section">
         <SwipeableImage images={images} alt="Product 3" />
         <div className="product-header">
-          <span className="label">Collection 2026</span>
           <h1>Wrogn EcoWeave Dobby Shirt | Brown</h1>
-          <p className="price">$69</p>
         </div>
       </section>
 
@@ -26,20 +24,20 @@ function Product3Page() {
         <h2>Specifications</h2>
         <div className="specs-grid">
           <div className="spec-item">
-            <span className="spec-label">Fit</span>
-            <span className="spec-value">Boxy Relaxed</span>
+            <span className="spec-label">Style Code</span>
+            <span className="spec-value">WROGN-SHIRT-003</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Care</span>
-            <span className="spec-value">Cold Wash Only</span>
+            <span className="spec-label">Brand</span>
+            <span className="spec-value">Wrogn</span>
+          </div>
+          <div className="spec-item">
+            <span className="spec-label">Fit</span>
+            <span className="spec-value">Regular Fit</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Origin</span>
-            <span className="spec-value">Made in Japan</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Sizes</span>
-            <span className="spec-value">XS - XXL</span>
+            <span className="spec-value">India</span>
           </div>
         </div>
       </section>
