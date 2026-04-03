@@ -192,15 +192,23 @@ function Product2Page() {
 
       <section id="endoflife" className="section">
         <h2>End of Life Guidance</h2>
-        <p>Linen and cotton fibers are fully biodegradable. The shirt can be cut into cleaning rags, used for craft projects, or composted at home. Mother of pearl buttons can be reused or recycled separately.</p>
+        
+        <h3 className="subsection-title">Disposal Guide</h3>
+        <ul className="environmental-list">
+          <li>Prefer reuse, repair or donation before disposal</li>
+          <li>Remove buttons before recycling (buttons can be reused or disposed separately)</li>
+          <li>Do not dispose in mixed waste</li>
+          <li>Return garment to store for recycling if local recycling facilities are unavailable</li>
+        </ul>
+        
         <div className="specs-grid" style={{ marginTop: '20px' }}>
           <div className="spec-item">
             <span className="spec-label">Recyclable</span>
-            <span className="spec-value">Yes - Multiple Uses</span>
+            <span className="spec-value">Yes - Textile Recycling</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Compostable</span>
-            <span className="spec-value">Yes - 6 Months</span>
+            <span className="spec-value">Yes - at certified textile recycling facility</span>
           </div>
         </div>
       </section>
