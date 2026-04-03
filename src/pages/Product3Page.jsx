@@ -18,8 +18,8 @@ function Product3Page() {
 
       <section id="description" className="section">
         <h2>Description</h2>
-        <p>A consciously crafted long-sleeved shirt with a regular collar, made from a cotton and recycled polyester blend sourced from post-consumer PET bottles. The open dobby weave enhances breathability while maintaining a refined texture and lasting durability. Produced using AZO-free dyes and low-impact finishing processes, the garment reflects a commitment to reduced environmental impact.</p>
-        <p style={{ marginTop: '16px' }}>Finished with thoughtfully selected eco-friendly components—including wooden buttons, cotton sewing thread, paper-based hangtags, and recycled packaging—this piece embodies a modern approach to responsible fashion without compromising on style or comfort.</p>
+        <p className="description-text">A consciously crafted long-sleeved shirt with a regular collar, made from a cotton and recycled polyester blend sourced from post-consumer PET bottles. The open dobby weave enhances breathability while maintaining a refined texture and lasting durability. Produced using AZO-free dyes and low-impact finishing processes, the garment reflects a commitment to reduced environmental impact.</p>
+        <p className="description-text">Finished with thoughtfully selected eco-friendly components including wooden buttons, cotton sewing thread, paper-based hangtags, and recycled packaging - this piece embodies a modern approach to responsible fashion without compromising on style or comfort.</p>
       </section>
 
       <section id="specifications" className="section">

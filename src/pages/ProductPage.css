@@ -92,9 +92,22 @@
 
 .section > p {
   color: #666;
-  line-height: 1.9;
-  font-size: 0.95rem;
+  line-height: 1.8;
+  font-size: 0.9rem;
   font-weight: 300;
+  text-align: justify;
+}
+
+.description-text {
+  color: #666;
+  line-height: 1.8;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.description-text + .description-text {
+  margin-top: 16px;
 }
 
 .specs-grid {
