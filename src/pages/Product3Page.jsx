@@ -126,17 +126,15 @@ function Product3Page() {
 
       <section id="environmental" className="section">
         <h2>Environmental Highlights</h2>
-        <p>Indigo dyed using traditional plant-based pigments. Wastewater treated on-site before release. Solar-powered manufacturing facility reduces grid dependency by 60%.</p>
-        <div className="specs-grid" style={{ marginTop: '20px' }}>
-          <div className="spec-item">
-            <span className="spec-label">Dye</span>
-            <span className="spec-value">Natural Indigo</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Energy</span>
-            <span className="spec-value">60% Solar Powered</span>
-          </div>
-        </div>
+        <ul className="environmental-list">
+          <li>30% lesser water consumption compared to conventional method</li>
+          <li>Azo-free dyes used — no hazardous chemical finishes applied</li>
+          <li>Recycled polyester made from post-consumer PET bottle waste</li>
+          <li>Designed for recyclability at end of life</li>
+          <li>Wastewater treated and certified safe before discharge</li>
+          <li>Fabric scraps upcycled into value-added products</li>
+          <li>Fabric can be composted at certified textile recycling facilities</li>
+        </ul>
       </section>
 
       <section id="durability" className="section">

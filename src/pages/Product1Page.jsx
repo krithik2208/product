@@ -126,17 +126,15 @@ function Product1Page() {
 
       <section id="environmental" className="section">
         <h2>Environmental Highlights</h2>
-        <p>Made with GOTS-certified organic cotton grown without pesticides. Water-based dyes used throughout production. Carbon footprint offset through verified reforestation projects.</p>
-        <div className="specs-grid" style={{ marginTop: '20px' }}>
-          <div className="spec-item">
-            <span className="spec-label">Water Saved</span>
-            <span className="spec-value">70% vs Conventional</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Carbon Offset</span>
-            <span className="spec-value">100%</span>
-          </div>
-        </div>
+        <ul className="environmental-list">
+          <li>30% lesser water consumption compared to conventional method</li>
+          <li>Azo-free dyes used — no hazardous chemical finishes applied</li>
+          <li>Recycled polyester made from post-consumer PET bottle waste</li>
+          <li>Designed for recyclability at end of life</li>
+          <li>Wastewater treated and certified safe before discharge</li>
+          <li>Fabric scraps upcycled into value-added products</li>
+          <li>Fabric can be composted at certified textile recycling facilities</li>
+        </ul>
       </section>
 
       <section id="durability" className="section">
