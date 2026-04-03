@@ -144,13 +144,13 @@ function Product1Page() {
         <ul className="environmental-list">
           <li>Use mild detergent</li>
           <li>Cold machine wash recommended</li>
-          <li>Flat dry in shade</li>
+          <li>Dry in shade</li>
           <li>Do not bleach</li>
           <li>Cool iron</li>
           <li>Do not wring</li>
         </ul>
         <div className="washcare-image">
-          <img src="./images/washcare.jpg" alt="Wash Care Symbols" />
+          <img src="./images/washcare.jpg" />
         </div>
 
         <h3 className="subsection-title" style={{ marginTop: '24px' }}>Durability & Performance</h3>
