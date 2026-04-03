@@ -253,7 +253,7 @@ function Product1Page() {
         </ul>
 
         <h3 className="subsection-title" style={{ marginTop: '24px' }}>Verification</h3>
-        <p style={{ color: '#444', fontSize: '0.9rem', lineHeight: 1.7 }}>Certification can be authenticated online via Textile Exchange platform using TE-ID or Scope Certificate Number</p>
+        <p className="description-text">Certification can be authenticated online via Textile Exchange platform using TE-ID or Scope Certificate Number</p>
       </section>
 
       <HamburgerMenu />
