@@ -139,6 +139,21 @@ function Product1Page() {
 
       <section id="durability" className="section">
         <h2>Durability & Care</h2>
+        
+        <h3 className="subsection-title">Wash Care</h3>
+        <ul className="environmental-list">
+          <li>Use mild detergent</li>
+          <li>Cold machine wash recommended</li>
+          <li>Flat dry in shade</li>
+          <li>Do not bleach</li>
+          <li>Cool iron</li>
+          <li>Do not wring</li>
+        </ul>
+        <div className="washcare-image">
+          <img src="./images/washcare1.jpg" alt="Wash Care Symbols" />
+        </div>
+
+        <h3 className="subsection-title" style={{ marginTop: '24px' }}>Durability & Performance</h3>
         <div className="specs-grid">
           <div className="spec-item">
             <span className="spec-label">Lifespan</span>

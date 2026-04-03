@@ -173,3 +173,14 @@
   background: #666;
   border-radius: 50%;
 }
+
+.washcare-image {
+  margin-top: 16px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.washcare-image img {
+  width: 100%;
+  height: auto;
+}
